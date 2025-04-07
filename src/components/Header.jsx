@@ -27,7 +27,9 @@ const Header = ({ onSearch }) => {
   return (
     <div className="p-4 flex justify-between  fixed top-0 left-0 w-full z-[9999]  bg-black">
       <div className="flex items-center gap-8">
-        <NavLink to="/" className="text-[30px] uppercase text-red-700 font-bold">Movie</NavLink>
+        <NavLink to="/">
+          <img src="/logo.svg" alt="" width={50} height={50} />
+        </NavLink>
         <nav className="hidden md:flex items-center space-x-5">
           <NavLink to="/about" className="hover:text-red-700">
             About
